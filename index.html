@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Usei o "defer" para o script só ser carregado após todo a DOM ser carregada -->
+    <script defer src="script.js"></script>
+    <title>Calculadora Clássica</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="saida">
+        <div id="operacao-anterior" class="operacao-anterior"></div>
+        <div id="operacao-atual" class="operacao-atual"></div>
+      </div>
+      <button class="funcoes" disabled>MC</button>
+      <button class="funcoes" disabled>MR</button>
+      <button class="funcoes" disabled>MS</button>
+      <button class="funcoes" disabled>M+</button>
+      <button class="funcoes" disabled>M-</button>
+      <button id="backspace" class="backspace">←</button>
+      <button id="limpaultimo" class="limpaultimo">CE</button>
+      <button id="limpatudo" class="limpatudo">C</button>
+      <button id="botaoMaisMenos" class="funcoes">±</button>
+      <button id="raizquadrada" class="funcoes">√</button>
+      <button class="numeros">7</button>
+      <button class="numeros">8</button>
+      <button class="numeros">9</button>
+      <button class="operacoes">/</button>
+      <button id="porcentagem" class="funcoes">%</button>
+      <button class="numeros">4</button>
+      <button class="numeros">5</button>
+      <button class="numeros">6</button>
+      <button class="operacoes">*</button>
+      <button class="funcoes" disabled>1/x</button>
+      <button class="numeros">1</button>
+      <button class="numeros">2</button>
+      <button class="numeros">3</button>
+      <button class="operacoes">-</button>
+      <button id="resultado" class="colunadupla">=</button>
+      <button id="linhadupla" class="numeros">0</button>
+      <button class="numeros">.</button>
+      <button class="operacoes">+</button>
+    </div>
+  </body>
+</html>
